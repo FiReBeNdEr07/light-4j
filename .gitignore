@@ -1,0 +1,26 @@
+light-example-4j
+target/
+bower_components/
+node_modules/
+dist/
+build/
+.gradle/
+.idea/
+.tmp/
+.project
+.classpath
+.settings
+.metadata/
+.aws-sam/
+*.iml
+*.log
+*.tmp
+*.zip
+*.bak
+dependency-reduced-pom.xml
+petstore-maven-single
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+
+.DS_Store
