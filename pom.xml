@@ -16,7 +16,7 @@
         <version.jose4j>0.6.3</version.jose4j>
         <version.logback>1.2.3</version.logback>
         <version.junit>4.12</version.junit>
-        <version.undertow>2.2.4.Final</version.undertow>
+        <version.undertow>2.3.6.Final</version.undertow>
         <version.json-schema-validator>1.0.49</version.json-schema-validator>
         
         
@@ -326,7 +326,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore></ignore>
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
                             </pluginExecutions>
@@ -443,7 +443,7 @@
                             <executable>java</executable>
                             <arguments>
                                 <argument>-cp</argument>
-                                <classpath />
+                                <classpath/>
                                 <argument>${project.main.class}</argument>
                             </arguments>
                         </configuration>
